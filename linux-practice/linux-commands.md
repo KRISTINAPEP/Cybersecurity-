@@ -28,3 +28,21 @@ Displays the contents of the file.
 ---
 
 More commands coming soon as I continue practicing.
+
+### `whoami`
+Displays the current logged-in user. Useful for verifying identity during investigations.
+
+### `chmod 644 notes.txt`
+Changes file permissions. This sets read/write for owner, and read-only for others.
+
+### `ps aux`
+Lists all running processes. Helps identify suspicious activity or resource hogs.
+
+### `kill <PID>`
+Terminates a process by its ID. Used in incident response to stop malicious processes.
+
+### `history`
+Shows your recent commands. Great for auditing or retracing steps.
+
+### `clear`
+Clears the terminal screen. Just for tidiness.
