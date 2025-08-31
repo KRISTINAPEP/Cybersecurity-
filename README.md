@@ -1,23 +1,43 @@
-# Cybersecurity-
-**Hands-on cybersecurity practice:** Linux commands, log analysis, Splunk queries, and incident response drills.
+# Cybersecurity Portfolio – SOC Analyst Projects
 
-## About This Repository
+Welcome to my cybersecurity portfolio. This repo showcases hands-on SOC analyst workflows using Splunk SPL queries, simulated alert logic, and incident response documentation. Built entirely with free tools to demonstrate real-world detection skills and Security+ principles.
 
-This repo documents my hands-on learning in cybersecurity, including Linux command line practice, log analysis, Splunk queries, and mock incident response scenarios. I'm actively building technical fluency and preparing for entry-level roles in SOC analysis, compliance, and threat detection.
+##  Repository Structure
 
-## What You'll Find Here
+- `linux-practice/` – Terminal commands and file system navigation
+- `log-analysis/` – Exercises using grep, tail, and auth.log
+- `splunk-queries/` – Sample SPL queries for anomaly detection
+- `incident-scenarios/` – Mock investigations and response notes
+- `study-guides/` – Security+ notes and cheat sheets
 
-- `linux-practice/` – Terminal commands and file system navigation  
-- `log-analysis/` – Exercises using grep, tail, and auth.log  
-- `splunk-queries/` – Sample SPL queries for anomaly detection  
-- `incident-scenarios/` – Mock investigations and response notes  
-- `study-guides/` – Security+ notes and cheat sheets  
+##  SPL Query Library
+- [Anomaly Detection Queries](./splunk-queries/anomaly-detection.md)
 
-## Certifications
+##  Alert Logic Simulations
+- Brute Force Detection (Splunk SPL)
+- IP Anomaly Detection
+- Access Control Violations
 
-- CompTIA Security+ (SY0-701)  
-- Splunk Core User  
+##  Incident Reports
+- Simulated investigations with MITRE ATT&CK mapping
+- Linux log analysis and response documentation
 
-## Contact
+##  Skills Demonstrated
+- Splunk Core User certified SPL logic
+- Security+ principles: access control, encryption, threat detection
+- MITRE ATT&CK alignment
+- SOC alert configuration and triage
+- GitHub repo management and documentation
 
-Feel free to explore the content and reach out if you have questions or suggestions.  
+##  Certifications
+- CompTIA Security+ (SY0-701)
+- Splunk Core User
+
+##  About This Repo
+This portfolio was built without paid tools or enterprise access—just Splunk knowledge, Linux logs, and strategic thinking. It reflects my ability to detect, investigate, and document threats in a SOC environment.
+
+##  Contact
+Feel free to explore the content and reach out if you have questions or suggestions.
+
+
+
