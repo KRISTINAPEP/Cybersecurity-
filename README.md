@@ -41,7 +41,9 @@ This portfolio was built without paid tools or enterprise access—just Splunk k
 
 ##  How to Use This Repo
 Start with the [Anomaly Detection Queries](./splunk-queries/anomaly-detection.md) to see my SPL logic.  
-Then explore the [Brute Force Detection Alert](splunk-queries/brute-force-alert.md) and [Linux Auth Log Incident Report](./incident-scenarios/linux-auth-report.md) for real-world simulations.
+Then explore the [Brute Force Detection Alert](splunk-queries/brute-force-alert.md) and ## Log Analysis Exercises
+- [Failed Login Investigation Drill](./log-analysis/failed-login-drill.md)
+ for real-world simulations.
 
 ##  Contact
 Feel free to explore the content and reach out if you have questions or suggestions.
