@@ -17,9 +17,9 @@ Welcome to my cybersecurity portfolio. This repo showcases hands-on SOC analyst 
 - Access Control Violations
  
 ## 🔗 Additional SOC Use Cases
-- [Brute Force Detection](./splunk-alerts/brute-force.md)
-- [Access Control Violations](./splunk-alerts/access-control.md)
-- [Incident Report – Linux Auth Log](./incident-scenarios/linux-auth-report.md)
+- [Brute Force Detection Alert](./splunk-queries/brute-force-alert.md)
+- [Phishing Case Investigation](./incident-scenarios/phishing-case.md)
+- [Failed Login Drill](./log-analysis/failed-login-drill.md)
 
 ##  Incident Reports
 - Simulated investigations with MITRE ATT&CK mapping
