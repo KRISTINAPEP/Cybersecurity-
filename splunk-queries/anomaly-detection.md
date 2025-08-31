@@ -20,7 +20,14 @@ Searches for failed login attempts and counts how many times each user was targe
 index=auth sourcetype=linux_secure "Failed password" | stats count by src_ip | sort -count
 
 **Explanation:**  
-Shows which IP addresses are generating the most failed login attempts. Helps identify attackers or misconfigured systems.
+Shows which IP addresses are generating the most failed login attempts. Helps identify attackers or misconfigured systems. 
+
+| src_ip        | Failed Logins |
+|---------------|----------------|
+| 192.168.1.10  | 120            |
+| 203.0.113.45  | 98             |
+| 10.0.0.5      | 76             |
+
 
 ---
 
@@ -74,4 +81,8 @@ These queries support key SOC analyst tasks like:
 - Supporting incident investigations and alert tuning
 
 Documenting them here helps build a repeatable workflow and shows readiness for real-world detection and response.
+
+###  SPL Query Library
+- [Anomaly Detection Queries](./splunk-queries/anomaly-detection.md)
+
 
